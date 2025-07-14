@@ -6,6 +6,7 @@ import path from 'path'
 console.log('📦 Vite config loaded – server.port will be', process.env.PORT || 'from config')
 
 export default defineConfig({
+  base: '/healthcare-ar-proto/',
   root: '.',      
   plugins: [ react() ],
   server: { 
